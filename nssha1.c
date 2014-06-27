@@ -64,14 +64,14 @@ static const char *RCSID = "@(#) $Header$, compiled: " __DATE__ " " __TIME__;
 /*
  * The Ns_ModuleVersion variable is required.
  */
-int Ns_ModuleVersion = 1;
+NS_EXPORT int Ns_ModuleVersion = 1;
 
 static char hexChars[] = "0123456789ABCDEF";
 
 /*
  * Private functions
  */
-int
+NS_EXPORT int
 Ns_ModuleInit(char *hServer, char *hModule);
 
 static int
