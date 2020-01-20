@@ -35,7 +35,6 @@ MODLIBS  =
 #
 # Compiler flags
 #
-CFLAGS   = --no-as-needed
-
+CFLAGS   = 
 
 include  $(NSHOME)/include/Makefile.module
